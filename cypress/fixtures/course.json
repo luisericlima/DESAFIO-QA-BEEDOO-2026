@@ -1,0 +1,10 @@
+{
+  "newCourse": {
+    "description": "Curso de Inteligência artificial Generativa.",
+    "instructor": "Gustavo Guanabara",
+    "imageUrl": "https://blog.saninternet.com/wp-content/uploads/2024/04/inteligencia-artificial.png.avif",
+    "startDate": "2026-03-10",
+    "endDate": "2026-03-30",
+    "vacancies": "15"
+  }
+}

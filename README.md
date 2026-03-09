@@ -474,3 +474,44 @@ DESAFIO-QA-BEEDOO-2026/
 - 📌 **Aplicação Testada**: [https://creative-sherbet-a51eac.netlify.app/](https://creative-sherbet-a51eac.netlify.app/)
 
 ---
+
+## 🚀 Automação de Testes (Cypress)
+
+Este projeto inclui uma suíte de testes automatizados desenvolvida com **Cypress**, focada nos fluxos críticos de gerenciamento de cursos.
+
+### 🛠️ Tecnologias Utilizadas
+- **Cypress**: Framework de automação de testes end-to-end.
+- **JavaScript**: Linguagem de programação dos testes.
+- **Node.js**: Ambiente de execução.
+
+### 📂 Estrutura do Projeto de Automação
+A estrutura de pastas foi organizada para seguir as boas práticas de manutenção e escalabilidade:
+
+```text
+cypress/
+├── tests/
+│   ├── e2e/            # Arquivos de teste (.cy.js)
+│   ├── fixtures/       # Dados estáticos para os testes (.json)
+│   └── support/        # Comandos customizados e configurações globais
+├── cypress.config.js   # Configurações do Cypress
+└── package.json        # Dependências e scripts do projeto
+README.md
+```
+
+### 🏃 Como Executar os Testes
+
+1. **Pré-requisitos**: Ter o [Node.js](https://nodejs.org/) instalado.
+2. **Instalação**:
+   ```bash
+   npm install
+   ```
+3. **Execução via Interface (Modo Interativo)**:
+   ```bash
+   npm run cypress:open
+   ```
+4. **Execução via Terminal (Modo Headless)**:
+   ```bash
+   npm run test
+   ```
+
+---
